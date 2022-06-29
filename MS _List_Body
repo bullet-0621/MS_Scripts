@@ -1,0 +1,62 @@
+{
+    "sections": [
+        {
+            "displayname": "",
+            "fields": [
+                "Title"
+            ]
+        },
+        {
+            "displayname": "Member Details",
+            "fields": [
+                "Staff Member",
+                "Report Date",
+                "Projected Date",
+                "Check-In Status",
+                "Supervisor",
+                "System Owner",
+                "Program Support"
+            ]
+        },
+        {
+            "displayname": "Security Profile",
+            "fields": [
+                "Security User",
+                "Zone Access(s)",
+                "Security Badge Type",
+                "Badge #",
+                "SIPR Token",
+                "SIPR Token Ser."
+            ]
+        },
+        {
+            "displayname": "System Access",
+            "fields": [
+                "NMCI Account (SIPR)",
+                "NMCI Account (NIPR)",
+                "NMCI Asset #",
+                "Asset Serial #",
+                "Machine Name",
+                "TRANET-U Account",
+                "TRANET-C Account"
+            ]
+        },
+        {
+            "displayname": "Web Application Access",
+            "fields": [
+                "CeTARS Access",
+                "SharePoint Account",
+                "eTRMS Account",
+                "C2OIX Account",
+                "Flankspeed Verification",
+                "Teams & Calendar Access"
+            ]
+        },
+        {
+            "displayname": "Related Details",
+            "fields": [
+                "Account Notes"
+            ]
+        }
+    ]
+}
