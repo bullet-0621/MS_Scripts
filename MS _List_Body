@@ -7,34 +7,31 @@
             ]
         },
         {
-            "displayname": "Member Details",
+            "displayname": "Schedule Section",
             "fields": [
-                "Staff Member",
-                "Report Date",
-                "Projected Date",
-                "Check-In Status",
-                "Supervisor",
-                "System Owner",
-                "Program Support"
+                "Service",
+                "Start Date",
+                "End Date",
+                "POC Info.",
+                "Org.",
+                "Purpose"
             ]
         },
         {
-            "displayname": "Security Profile",
+            "displayname": "Service Section",
             "fields": [
-                "Security User",
-                "Zone Access(s)",
-                "Security Badge Type",
-                "Badge #",
+                "Media Req.",
+                "Media Service",
+                "System Service",
+                "NMCI Req."
+            ]
+        },
+        {
+            "displayname": "Status Section",
+            "fields": [
+                "Active TRANET-C",
+                "Active TRANET-U",
                 "SIPR Token",
-                "SIPR Token Ser."
-            ]
-        },
-        {
-            "displayname": "System Access",
-            "fields": [
-                "NMCI Account (SIPR)",
-                "NMCI Account (NIPR)",
-                "NMCI Asset #",
                 "Asset Serial #",
                 "Machine Name",
                 "TRANET-U Account",
@@ -42,20 +39,15 @@
             ]
         },
         {
-            "displayname": "Web Application Access",
+            "displayname": "Space Allocation Section",
             "fields": [
-                "CeTARS Access",
-                "SharePoint Account",
-                "eTRMS Account",
-                "C2OIX Account",
-                "Flankspeed Verification",
-                "Teams & Calendar Access"
+                "Resource Allocation"
             ]
         },
         {
-            "displayname": "Related Details",
+            "displayname": "File Submission Section",
             "fields": [
-                "Account Notes"
+                "Attachments"
             ]
         }
     ]
