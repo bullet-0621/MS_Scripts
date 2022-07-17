@@ -1,0 +1,9 @@
+ {
+      "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+      "elmType": "div",
+      "txtContent": "=if([$Status] == '', '', '•')",
+      "style": {
+        "color": "=if([$Status] == 'Green', 'green', if([$Status] == 'Yellow', 'yellow', if([$Status] == 'Red', 'red', if([$Status] == 'Approaching','','purple')))",
+        "font-size": "5em"
+      }
+    }
