@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: White;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: Purple;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+</style>
+</head>
+<body>
+
+<h1>Career & Administartor Tools</h1>
+<a href="https://www.cool.navy.mil/"button class="btn success">Navy COOL</button>
+</a>
+<a href="https://www.cmsid.navy.mil/"button class="btn info">CMS ID</button>
+</a>
+<a href="http://www.public.navy.mil/bupers-npc/enlisted/community/Pages/default.aspx/"button class="btn warning">Community Managers</button>
+</a>
+<a href="http://www.public.navy.mil/bupers-npc/enlisted/detailing/Pages/default2.aspx/"button class="btn danger">Detailers</button>
+</a>
+<a href="https://www.bol.navy.mil/"button class="btn default">Buper Online</button>
+</a>
+<a href="http://www.navycollege.navy.mil/"button class="btn Success">Navy College Portal</button>
+</a>
+<a href="http://ddg110usv01/cta/cta.aspx"button class="btn info">Career Tools (Afloat)</button>
+</a>
+<a href="https://nsipswebafloat/psp/NEDB/?cmd=login&languageCd=ENG"button class="btn info">NSIPS (Afloat)</button>
+</a>
+</body>
+</html

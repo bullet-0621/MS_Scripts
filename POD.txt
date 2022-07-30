@@ -1,0 +1,4 @@
+<div class="ms-rtestate-read ms-rte-wpbox" contenteditable="false" unselectable="on"><div class="ms-rtestate-notify  ms-rtestate-read 75712ab8-b0d1-432e-82c0-68819c0c8416" id="div_75712ab8-b0d1-432e-82c0-68819c0c8416" unselectable="on"></div>
+<div id="vid_75712ab8-b0d1-432e-82c0-68819c0c8416" unselectable="on" style="display: none"></div></div>
+<object althtml="
+&lt;embed width=&quot;1000&quot; height=&quot;500&quot; src=&quot;/sites/home/SiteAssets/15Jun18.pdf&quot; type=&quot;application/pdf&quot;&gt;&lt;/embed&gt;"><embed width="700" height="500" src="/sites/home/SiteAssets/15Jun18.pdf" type="application/pdf"></embed></object>

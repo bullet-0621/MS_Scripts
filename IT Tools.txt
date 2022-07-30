@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: White;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: Purple;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+</style>
+</head>
+<body>
+
+<h1>Career & Administartor Tools</h1>
+<a href="http://www.public.navy.mil/spawar/navy311/Pages/home.html/"button class="btn success">ATG Toolbox</button>
+</a>
+<a href="http://ddg110usv01/Pages/default.aspx/"button class="btn success">Cantrac</button>
+</a>
+<a href="https://nmcitraining.skillport.com/skillportfe/login.action/"button class="btn success">CETARS(Access Required)</button>
+</a>
+<a href="https://ntmpsweb.ncdc.navy.mil/fltmps/"button class="btn success">FLTMPS(Access Required)</button>
+</a>
+</body>
+</html

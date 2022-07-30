@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+    width: 500px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ffff99;
+}
+
+.vertical-menu a.active {
+    background-color: #000066;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Vertical Menu</h1>
+
+<div class="vertical-menu">
+  <a href="#" class="active">Home</a>
+  <a href="https://www.google.com/">Google.com</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
+</div>
+</body>
+</html>

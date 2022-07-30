@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.btn {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Green */
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Blue */
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #000066;
+  color: white;
+}
+
+/* Orange */
+.warning {
+  border-color: #ff9800;
+  color: orange;
+}
+
+.warning:hover {
+  background: #ff9800;
+  color: white;
+}
+
+/* Red */
+.danger {
+  border-color: #f44336;
+  color: red
+}
+
+.danger:hover {
+  background: #f44336;
+  color: White;
+}
+
+/* Gray */
+.default {
+  border-color: #e7e7e7;
+  color: Purple;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+</style>
+</head>
+<body>
+
+<h1>HHQ & Support Command External Directory</h1>
+<a href="http://www.jcs.mil/Library/"button class="btn default">U.S. Joint Chief of Staff</button>
+</a>
+<a href="http://www.esd.whs.mil/Directives/issuances/dodd/"button class="btn success">Department of Defense</button>
+</a>
+<a href="http://www.navsea.navy.mil/Resources/Instructions/"button class="btn info">U.S. Naval Sea System Command</button>
+</a>
+<a href="https://doni.documentservices.dla.mil/links.aspx"button class="btn info">Department of the Navy Issurance</button>
+</a>
+<a href="https://portal.secnav.navy.mil/orgs/OPNAV/Shared%20Documents/Forms/AllItems.aspx"button class="btn info">Commander, Chief of Naval Operations</button>
+</a>
+<a href="https://cpf.navy.deps.mil/SitePages/default.aspx"button class="btn info">Commander U.S. Pacific Fleet</button>
+</a>
+<a href="https://cpf.navy.deps.mil/sites/cnsp/default.aspx"button class="btn info">Commander U.S. Naval Surface Pacific</button>
+</a>
+</body>
+</html
