@@ -1,26 +1,26 @@
 {
-  "elmType": "div",
-  "style": {
-      "display": "flex",
-      "justify-content": "space-between",
-      "border-radius": "10px 10px 0 0",
-      "padding": "8px",
-      "font-size": "24px"
-  },
-  "attributes": {
-      "class": "=if([$OverallTestAssessment] == 'Results Valid', 'ms-bgColor-greenLight', if([$OverallTestAssessment] == 'Analysis In Progess', 'ms-bgColor-blueLight',  if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'ms-bgColor-orange', if([$OverallTestAssessment] == 'Results Invalid', 'ms-bgColor-red', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
-  },
-  "children": [
-      {
-          "elmType": "div",
-          "txtContent": "[$Command]"
-      },
-      {
-          "elmType": "div",
-          "attributes": {
-              "iconName": "=if([$OverallTestAssessment] == 'Results Valid', 'CompletedSolid', if([$OverallTestAssessment] == 'Analysis In Progess', 'PinnedSolid', if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'TestBeakerSolid', if([$OverallTestAssessment] == 'Results Invalid', 'WarningSolid', 'Blocked2Solid'))))",
-              "title": "[$Command]"
-          }
-      }
-  ]
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "justify-content": "space-between",
+        "border-radius": "10px 10px 0 0",
+        "padding": "8px",
+        "font-size": "24px"
+    },
+    "attributes": {
+        "class": "=if([$OverallTestAssessment] == 'Results Valid', 'ms-bgColor-greenLight', if([$OverallTestAssessment] == 'Analysis In Progress', 'ms-bgColor-blueLight',  if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'ms-bgColor-orange', if([$OverallTestAssessment] == 'Results Invalid', 'ms-bgColor-red', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "txtContent": "='Status: ' + [$OverallTestAssessment]"
+        },
+        {
+            "elmType": "div",
+            "attributes": {
+                "iconName": "=if([$OverallTestAssessment] == 'Results Valid', 'CompletedSolid', if([$OverallTestAssessment] == 'Analysis In Progress', 'PinnedSolid', if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'TestBeakerSolid', if([$OverallTestAssessment] == 'Results Invalid', 'WarningSolid', 'Blocked2Solid'))))",
+                "title": "[$OverallTestAssessment]"
+            }
+        }
+    ]
 }
