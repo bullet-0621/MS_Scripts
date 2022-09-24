@@ -8,18 +8,18 @@
       "font-size": "24px"
   },
   "attributes": {
-      "class": "=if([$Overall Test Assessment] == 'Results Valid', 'ms-bgColor-greenLight', if([$Overall Test Assessment] == 'Analysis In Progess', 'ms-bgColor-blueLight',  if([$Overall Test Assessment] == 'Unable to Assess (See Comments)', 'ms-bgColor-orange', if([$Overall Test Assessment] == 'Results Invalid', 'ms-bgColor-red', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
+      "class": "=if([$OverallTestAssessment] == 'Results Valid', 'ms-bgColor-greenLight', if([$OverallTestAssessment] == 'Analysis In Progess', 'ms-bgColor-blueLight',  if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'ms-bgColor-orange', if([$OverallTestAssessment] == 'Results Invalid', 'ms-bgColor-red', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
   },
   "children": [
       {
           "elmType": "div",
-          "txtContent": "[$Title]"
+          "txtContent": "[$Command]"
       },
       {
           "elmType": "div",
           "attributes": {
-              "iconName": "=if([$Status] == 'Done', 'CompletedSolid', if([$Status] == 'Working on it', 'PinnedSolid', if([$Status] == 'Thinking about it', 'TestBeakerSolid', if([$Status] == 'Nevermind', 'WarningSolid', 'Blocked2Solid'))))",
-              "title": "[$Status]"
+              "iconName": "=if([$OverallTestAssessment] == 'Results Valid', 'CompletedSolid', if([$OverallTestAssessment] == 'Analysis In Progess', 'PinnedSolid', if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'TestBeakerSolid', if([$OverallTestAssessment] == 'Results Invalid', 'WarningSolid', 'Blocked2Solid'))))",
+              "title": "[$Command]"
           }
       }
   ]
