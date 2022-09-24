@@ -1,6 +1,6 @@
 {
   "elmType": "div",
-  "txtContent": "='© ' + getYear(@now) + ' Warrior Horses'",
+  "txtContent": "='© ' + getYear(@now) + ' SCSTC DET PNW'",
   "style": {
     "font-size": "10px",
     "border-top-style": "solid",
@@ -10,6 +10,6 @@
     "justify-content": "center"
   },
   "attributes": {
-    "class": "=if([$Status] == 'Done', 'ms-borderColor-greenLight', if([$Status] == 'Working on it', 'ms-borderColor-blueLight', if([$Status] == 'Thinking about it', 'ms-borderColor-neutralLight', if([$Status] == 'Nevermind', 'ms-borderColor-yellow', 'ms-borderColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
+    "class": "=if([$OverallTestAssessment] == 'Results Valid', 'ms-bgColor-greenLight', if([$OverallTestAssessment] == 'Analysis In Progress', 'ms-bgColor-blueLight',  if([$OverallTestAssessment] == 'Unable to Assess (See Comments)', 'ms-bgColor-orange', if([$OverallTestAssessment] == 'Results Invalid', 'ms-bgColor-red', 'ms-bgColor-orangeLight')))) + ' ms-fontColor-neutralPrimary'"
   }
 }
