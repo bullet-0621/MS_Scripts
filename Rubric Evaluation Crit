@@ -1,11 +1,22 @@
-=IF([Score Anaylsis]>=1,"Inference: No stories, canvassing questions, engagement techniques.  No or very few students engaged.Relevance of topic not explained (i.e WIIFM, Needs/Uses, No Encouragement note taking, No Encouragement to ask questions)",IF([Score Anaylsis]3>=2,"Inference: Attempted to engage students with story, canvassing questions, engagement techniques. Some student engagement. Attempted to explain relevance of topic, but connection to course not clear (i.e. WIIFM, Needs/Uses, Minimal emphasis on note taking OR Minimal emphasis to ask questions.) ",IF([Score Anaylsis]>=1,"Red",IF([Score Anaylsis]=0,"No Score"))))
+=IF(OR([Motivation Assessment]=0, [Motivation Assessment]=1),"Inference: No stories, canvassing questions, engagement techniques.  No or very few students engaged.Relevance of topic not explaine(i.e WIIFM, Needs/Uses, No Encouragement note taking, No Encouragement to ask questions)", "Not Assessed")
 
-=IF([Scornaylsis]>=80,"Green",IF([Score Anaylsis]>=70,"Yellow",IF([Score Anaylsis]>=1,"Red",IF([Score Anaylsis]=0,"No Score"))))
+=IF(OR([Motivation Assessment]=2, [Motivation Assessment]=3),"Inference: Attempted to engage students with story, canvassing questions, engagement techniques. Some student engagement. Attempted to explain relevance of topic, but connection to course not clear (i.e WIIFM, Needs/Uses Minimal emphasis on note taking OR Minimal emphasis to ask questions)", "Not Assessed")
 
-=IF([Score Anaylsis]>=80,"Green",IF([Score Anaylsis]>=70,"Yellow",IF([Score Anaylsis]>=1,"Red",IF([Score Anaylsis]=0,"No Score"))))
+=IF(OR([Motivation Assessment]=0, [Motivation Assessment]=1), 
+    "Inference: No stories, canvassing questions, engagement techniques. No or very few students engaged. Relevance of topic not explained (i.e WIIFM, Needs/Uses, No Encouragement note taking, No Encouragement to ask questions)", 
+    IF(OR([Motivation Assessment]=2, [Motivation Assessment]=3), 
+        "Inference: Attempted to engage students with story, canvassing questions, engagement techniques. Some student engagement. Attempted to explain relevance of topic, but connection to course not clear (i.e WIIFM, Needs/Uses, Minimal emphasis on note taking OR Minimal emphasis to ask questions)", 
+        "Not Assessed"
+    )
+)
 
-=IF([Score Anaylsis]>=80,"Green",IF([Score Anaylsis]>=70,"Yellow",IF([Score Anaylsis]>=1,"Red",IF([Score Anaylsis]=0,"No Score"))))
+=IF(AND(OR([Motivation Assessment]=0, [Motivation Assessment]=1), OR([Motivation Assessment]=2, [Motivation Assessment]=3)), 
+    "Inference: No stories, canvassing questions, engagement techniques. No or very few students engaged. Relevance of topic not explained (i.e WIIFM, Needs/Uses, No Encouragement note taking, No Encouragement to ask questions). Attempted to engage students with story, canvassing questions, engagement techniques. Some student engagement. Attempted to explain relevance of topic, but connection to course not clear (i.e WIIFM, Needs/Uses Minimal emphasis on note taking OR Minimal emphasis to ask questions)", 
+    "Not Assessed"
+)
+=IF(OR([Motivation Assessment]=0, [Motivation Assessment]=1), 
+    "Inference: No stories, canvassing questions, engagement techniques. No or very few students engaged. Relevance of topic not explained (i.e WIIFM, Needs/Uses, No Encouragement note taking, No Encouragement to ask questions). Attempted to engage students with story, canvassing questions, engagement techniques. Some student engagement. Attempted to explain relevance of topic, but connection to course not clear (i.e WIIFM, Needs/Uses Minimal emphasis on note taking OR Minimal emphasis to ask questions)", 
+    "Not Assessed"
+)
 
-=IF([Score Anaylsis]>=80,"Green",IF([Score Anaylsis]>=70,"Yellow",IF([Score Anaylsis]>=1,"Red",IF([Score Anaylsis]=0,"No Score"))))
 
-=IF([Score Anaylsis]>=80,"Green",IF([Score Anaylsis]>=70,"Yellow",IF([Score Anaylsis]>=1,"Red",IF([Score Anaylsis]=0,"No Score"))))
